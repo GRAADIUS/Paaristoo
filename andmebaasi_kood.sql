@@ -1,8 +1,3 @@
-create table Kasutaja(
-Kasutaja_ID int primary key identity(1,1),
-Kasutajanimi varchar(10),
-Parool varchar(10));
-
 create table Ajakava(
 Ajakava_ID int primary key identity(1,1),
 Nädalapäev date,
