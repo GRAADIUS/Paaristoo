@@ -1,0 +1,11 @@
+use Projektitöö;
+INSERT INTO Ajakava(Sundmus, Algusaeg, Lõpuaeg) VALUES ('Hommikusöök', '2023-10-12 08:00:00', '2023-10-12 09:00:00');
+INSERT INTO Ajakava(Sundmus, Algusaeg, Lõpuaeg) VALUES ('Kõndima', '2023-10-12 09:00:00', '2023-10-12 10:00:00');
+INSERT INTO Ajakava(Sundmus, Algusaeg, Lõpuaeg) VALUES ('Vaba aeg', '2023-10-12 10:00:00', '2023-10-12 11:00:00');
+INSERT INTO Ajakava(Sundmus, Algusaeg, Lõpuaeg) VALUES ('Õhtusöök', '2023-10-12 18:00:00', '2023-10-12 19:00:00');
+INSERT INTO Ajakava(Sundmus, Algusaeg, Lõpuaeg) VALUES ('Teraapia seanss', '2023-10-12 14:00:00', '2023-10-12 15:00:00');
+INSERT INTO Ajakava(Sundmus, Algusaeg, Lõpuaeg) VALUES ('Vaba aeg', '2023-10-12 16:00:00', '2023-10-12 17:00:00');
+INSERT INTO Ajakava(Sundmus, Algusaeg, Lõpuaeg) VALUES ('Õhtusöök', '2023-10-12 19:00:00', '2023-10-12 20:00:00');
+INSERT INTO Ajakava(Sundmus, Algusaeg, Lõpuaeg) VALUES ('Tuled kustunud', '2023-10-12 22:00:00', '2023-10-13 08:00:00');
+INSERT INTO Ajakava(Sundmus, Algusaeg, Lõpuaeg) VALUES ('Hommikusöök', '2023-10-13 08:00:00', '2023-10-13 09:00:00');
+INSERT INTO Ajakava(Sundmus, Algusaeg, Lõpuaeg) VALUES ('Kõndima', '2023-10-13 09:00:00', '2023-10-13 10:00:00');
