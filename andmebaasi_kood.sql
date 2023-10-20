@@ -1,8 +1,8 @@
 create table Ajakava(
 Ajakava_ID int primary key identity(1,1),
-Nädalapäev date,
-Algusaeg time,
-Lõpuaeg time);
+Sündmus varchar(25),
+Algusaeg datetime,
+Lõpuaeg datetime);
 
 create table Toohive(
 Toohive_ID int primary key identity(1,1),
