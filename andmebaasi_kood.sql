@@ -1,6 +1,6 @@
 create table Ajakava(
 Ajakava_ID int primary key identity(1,1),
-Sündmus varchar(25),
+Sundmus varchar(25),
 Algusaeg datetime,
 Lõpuaeg datetime);
 
@@ -10,15 +10,14 @@ Toohive varchar(25));
 
 create table Osakonna(
 Osakonna_ID int primary key identity(1,1),
-Osakonna_nimi varchar(25),
-Kirjeldus varchar(50),
+Osakonna_nimi varchar(75),
 Asukoht varchar(50));
 
 create table Ravim(
 Meditsiini_ID int primary key identity(1,1),
 Ravimi_nimi varchar(20),
-Annustamine int,
-Korvalmõjud varchar(50));
+Eesmärk varchar(20),
+Korvalmõjud varchar(100));
 
 create table Tootajad(
 Personali_ID int primary key identity(1,1),
@@ -26,9 +25,8 @@ Nimi varchar(20),
 Perekonnanimi varchar(20),
 Spetsialiseerumine int,
 FOREIGN KEY (Spetsialiseerumine) REFERENCES Toohive(Toohive_ID), 
-Too_algus time,
-Too_lopp time,
-Kontaktinfo varchar(10));
+Too_algus varchar(100),
+Kontaktinfo varchar(15));
 
 create table Patsient(
 Patsiendi_ID int primary key identity(1,1),
