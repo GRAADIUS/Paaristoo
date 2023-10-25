@@ -1,1 +1,0 @@
-# Projektit-Ps-hhiaatriahaigla-andmebaas-
