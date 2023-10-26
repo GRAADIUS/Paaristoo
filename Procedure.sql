@@ -7,5 +7,6 @@ CREATE PROCEDURE Add_Patsient()
   @väljalaskekuupäev date;
   @Osakonna_ID int;
 BEGIN
-  INSERT INTO Patsient(Perekonnanimi, Nimi, Sünnikuupäev, Diagnoos, vastuvõtukuupäev, väljalaskekuupäev, Osakonna) VALUES (@perenimi, @nimi, @sünnipäev, @diagnoos, @vastuvõtukuupäev, @väljalaskekuupäev, @Osakonna_ID);
+  INSERT INTO Patsient(Perekonnanimi, Nimi, Sünnikuupäev, Diagnoos, vastuvõtukuupäev, väljalaskekuupäev, Osakonna) 
+  VALUES (@perenimi, @nimi, @sünnipäev, @diagnoos, @vastuvõtukuupäev, @väljalaskekuupäev, @Osakonna_ID);
 END$$
