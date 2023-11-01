@@ -1,13 +1,13 @@
-INSERT INTO Ajakava(Sundmus, Algusaeg, Lõpuaeg) VALUES ('Hommikusöök', '2023-10-12 08:00:00', '2023-10-12 09:00:00');
-INSERT INTO Ajakava(Sundmus, Algusaeg, Lõpuaeg) VALUES ('Kõndima', '2023-10-12 09:00:00', '2023-10-12 10:00:00');
-INSERT INTO Ajakava(Sundmus, Algusaeg, Lõpuaeg) VALUES ('Vaba aeg', '2023-10-12 10:00:00', '2023-10-12 11:00:00');
-INSERT INTO Ajakava(Sundmus, Algusaeg, Lõpuaeg) VALUES ('Õhtusöök', '2023-10-12 12:00:00', '2023-10-12 13:00:00');
-INSERT INTO Ajakava(Sundmus, Algusaeg, Lõpuaeg) VALUES ('Teraapia seanss', '2023-10-12 13:00:00', '2023-10-12 19:00:00');
-INSERT INTO Ajakava(Sundmus, Algusaeg, Lõpuaeg) VALUES ('Vaba aeg', '2023-10-12 19:00:00', '2023-10-12 20:00:00');
-INSERT INTO Ajakava(Sundmus, Algusaeg, Lõpuaeg) VALUES ('Õhtusöök', '2023-10-12 20:00:00', '2023-10-12 21:00:00');
-INSERT INTO Ajakava(Sundmus, Algusaeg, Lõpuaeg) VALUES ('Tuled kustunud', '2023-10-12 21:00:00', '2023-10-13 08:00:00');
-INSERT INTO Ajakava(Sundmus, Algusaeg, Lõpuaeg) VALUES ('Hommikusöök', '2023-10-13 08:00:00', '2023-10-13 09:00:00');
-INSERT INTO Ajakava(Sundmus, Algusaeg, Lõpuaeg) VALUES ('Kõndima', '2023-10-13 09:00:00', '2023-10-13 10:00:00');
+INSERT INTO Ajakava(Sundmus, Algusaeg, Lopuaeg) VALUES ('Hommikusöök', '2023-10-12 08:00:00', '2023-10-12 09:00:00');
+INSERT INTO Ajakava(Sundmus, Algusaeg, Lopuaeg) VALUES ('Kõndima', '2023-10-12 09:00:00', '2023-10-12 10:00:00');
+INSERT INTO Ajakava(Sundmus, Algusaeg, Lopuaeg) VALUES ('Vaba aeg', '2023-10-12 10:00:00', '2023-10-12 11:00:00');
+INSERT INTO Ajakava(Sundmus, Algusaeg, Lopuaeg) VALUES ('Õhtusöök', '2023-10-12 12:00:00', '2023-10-12 13:00:00');
+INSERT INTO Ajakava(Sundmus, Algusaeg, Lopuaeg) VALUES ('Teraapia seanss', '2023-10-12 13:00:00', '2023-10-12 19:00:00');
+INSERT INTO Ajakava(Sundmus, Algusaeg, Lopuaeg) VALUES ('Vaba aeg', '2023-10-12 19:00:00', '2023-10-12 20:00:00');
+INSERT INTO Ajakava(Sundmus, Algusaeg, Lopuaeg) VALUES ('Õhtusöök', '2023-10-12 20:00:00', '2023-10-12 21:00:00');
+INSERT INTO Ajakava(Sundmus, Algusaeg, Lopuaeg) VALUES ('Tuled kustunud', '2023-10-12 21:00:00', '2023-10-13 08:00:00');
+INSERT INTO Ajakava(Sundmus, Algusaeg, Lopuaeg) VALUES ('Hommikusöök', '2023-10-13 08:00:00', '2023-10-13 09:00:00');
+INSERT INTO Ajakava(Sundmus, Algusaeg, Lopuaeg) VALUES ('Kõndima', '2023-10-13 09:00:00', '2023-10-13 10:00:00');
 
 INSERT INTO Toohive(Toohive) VALUES ('Arst');
 INSERT INTO Toohive(Toohive) VALUES ('Meditsiiniõde');
